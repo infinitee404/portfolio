@@ -1,10 +1,10 @@
 const Resume = () => {
     return(
-        <>
-            <div className="resume">
-                Resume Section
+            <div className="container">
+                <div className="resume-container">
+                    
+                </div>
             </div>
-        </>
     )
 }
 

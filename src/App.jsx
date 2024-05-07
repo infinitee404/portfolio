@@ -14,7 +14,6 @@ const App = () => {
   
   const HandleChange = () =>{
     setDarkTheme(prevTheme => !prevTheme)
-    console.log(darkTheme)
   }
 
   return (
@@ -22,8 +21,8 @@ const App = () => {
       <div className="app" data-theme={darkTheme? "dark" : "light"}>
         <Navbar />
         <About />
-        <Resume />
-        <Projects />
+        {/* <Resume /> */}
+        {/* <Projects /> */}
       </div>
     </ThemeContext.Provider>
   )

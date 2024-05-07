@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import { ThemeContext } from "../App"
+import 'boxicons'
 
 const Navbar = () => {
 
@@ -18,7 +19,7 @@ const Navbar = () => {
                     onClick={toggleTheme}
                     className="theme-toggle" 
                 >
-                    {darkTheme? /*<box-icon name="sun" type="solid" color="#fff" />*/ null : /* <box-icon name="moon" type="solid" color="#000" />*/ null }
+                    {darkTheme? <box-icon name="sun" type="solid" color="#fff" />  : <box-icon name="moon" type="solid" color="#000" /> }
                 </div>
             </ul>
         </nav>

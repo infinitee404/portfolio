@@ -1,10 +1,13 @@
 const Projects = () => {
     return(
-        <>
-        <div className="projects">
-            Projects Section
+        <div className="container">
+            <div className="projects-container">
+                
+            </div>
+            <div className="projects-description">
+                
+            </div>
         </div>
-    </>
     )
 }
 
