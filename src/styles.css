@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
-
+    transition: all 0.3s ease-in;
 }
 
 nav{
@@ -15,7 +15,7 @@ nav{
     top: 0;
     height: 60px;
     width: 100%;
-    background: var(--bg-frsoted);
+    background: var(--bg-frosted);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
     padding: 2vh 17vw;
@@ -82,7 +82,7 @@ nav > ul{
     --bg-secondary: #232323;
     --text-primary: #232323;
     --text-secondary: #f1f1f1;
-    --bg-frsoted: #f1f1f180;
+    --bg-frosted: #f1f1f1aa;
     --shadow: #00000040;
 }
 
@@ -91,6 +91,6 @@ nav > ul{
     --bg-secondary: #f1f1f1;
     --text-primary: #f1f1f1;
     --text-secondary: #232323;
-    --bg-frsoted: #23232380;
+    --bg-frosted: #232323aa;
     --shadow: #ffffff40;
 }

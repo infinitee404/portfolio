@@ -1,10 +1,8 @@
 const Resume = () => {
-    return(
-            <div className="container">
-                <div className="resume-container">
-                    
-                </div>
-            </div>
+    return (
+        <div className="container">
+            <div className="resume-container"></div>
+        </div>
     )
 }
 
